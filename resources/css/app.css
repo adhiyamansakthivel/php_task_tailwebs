@@ -1,0 +1,91 @@
+body {
+    background-color: #e4e4e4; /* Grey background color */
+    font-family:  'Roboto';
+}
+.navbar {
+    background-color: #ffffff; /* Dark navbar background color */
+}
+h1{
+  color:red;
+  font-size: 24px;
+}
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: white;
+}
+.container-fluid {
+    padding: 20px;
+}
+
+th {
+    border-right: 2px solid #E0E0E0;
+    color: #727272;
+    font-weight: normal;
+   
+}
+thead{
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+tr{
+  border-bottom: 2px solid #E0E0E0;
+}
+label{
+  color: #706e6e;
+  font-weight: normal;
+}
+.add-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    cursor: pointer;
+}
+.modal-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    cursor: pointer;
+}
+.dropbtn {
+  width: 24px;
+  height: 24px;
+  background-color: #000000;
+  color: white;
+  padding: 2px;
+  font-size: 50%;
+  margin: none;
+  border-radius: 50%;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  margin: 2px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 3px 13px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #000000;}
